@@ -1,0 +1,93 @@
+@media (min-width: 320px) and (max-width: 640px) {
+	nav {
+		background: #0DC0C0;
+	}
+}
+
+nav h1 {
+	font-size: 1.3em;
+}
+
+nav a {
+	font-size: 0.9em;
+	color: white;
+	margin: 0% 3%;
+	font-weight: bold;
+}
+
+nav a:hover {
+	color: #0DC0C0;
+}
+
+#menu.active {
+	background-color: #009ca8;
+	padding: 6px 0;
+  webkit-transform: translateY(0);
+	-moz-transform: translateY(0);
+	-ms-transform: translateY(0);
+	-o-transform: translateY(0);
+	transform: translateY(0);
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+	-webkit-transform: translateZ(0);
+}
+/*END HEADER*/
+
+.title h1 {
+	font-size: 3em;
+	font-weight: normal;
+}
+
+.title p {
+	font-size: 0.9em;
+}
+
+.title {
+	position: absolute;
+	z-index: 100;
+	margin: 15% 19%;
+}
+
+.title .row {
+	padding: 5% 30%;
+}
+
+.opacity-white {
+	background: rgba(255, 255, 255, 0.1);
+}
+
+.btn-learn-more p {
+	padding: 10%;
+	font-size: 1em;
+	position: relative;
+}
+
+.btn-portfolio {
+	padding: 10% 0%;
+	background: #4A4949;
+	opacity: 0.9;
+}
+
+.btn-learn-more:hover, .btn-portfolio:hover {
+	background: #0DC0C0;
+}
+
+/*HERO IMAGE*/
+.hero-image, .opacity {
+	position: relative;
+}
+
+.hero-image	{
+	height: 969px;
+	background: url(../img/background/hero.jpg) no-repeat;
+	background-size: cover;
+	width: 100%;
+}
+
+.opacity {
+	width: 100%;
+	height: 969px;
+	background: black;
+	opacity: 0.5;
+}
