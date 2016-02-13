@@ -5,6 +5,9 @@
 p::-moz-selection { color: white;  background: #0DC0C0;}
 p::selection      { color: white;  background: #0DC0C0; }
 
+body{
+	overflow: hidden;
+}
 @media (min-width: 320px) and (max-width: 640px) {
 	nav {
    		 background-color: rgba(0, 0, 0, 0.72);
