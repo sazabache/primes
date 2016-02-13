@@ -1,7 +1,7 @@
 $(document).scroll(function() {    
     var scroll = $(this).scrollTop();
 
-    if (scroll >= 600) {
+    if (scroll >= 970) {
         $("#menu").addClass("active");
     } else {
         $("#menu").removeClass("active");
@@ -10,6 +10,10 @@ $(document).scroll(function() {
 });
 
 
+
+$(".navbar-toggle").click(function(){
+  $(this).toggleClass("open");
+});
 //Menu
 /*$(".navbar-toggle").on('click', function() {
   $(this).toggleClass("on");

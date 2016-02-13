@@ -407,9 +407,9 @@ th {
 .glyphicon-qrcode:before {
   content: "\e039";
 }
-.glyphicon-barcode:before {
+/*.glyphicon-barcode:before {
   content: "\e040";
-}
+}*/
 .glyphicon-tag:before {
   content: "\e041";
 }
@@ -1092,11 +1092,7 @@ a {
   color: #18bc9c;
   text-decoration: none;
 }
-a:hover,
-a:focus {
-  color: #18bc9c;
-  text-decoration: underline;
-}
+
 a:focus {
   outline: thin dotted;
   outline: 5px auto -webkit-focus-ring-color;
@@ -1248,7 +1244,7 @@ h6 .small,
 }
 h1,
 .h1 {
-  font-size: 39px;
+  font-size: 4.6em;
 }
 h2,
 .h2 {
@@ -3853,11 +3849,12 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .nav > li {
   position: relative;
   display: block;
+  padding: 10px 15px;
 }
 .nav > li > a {
   position: relative;
   display: block;
-  padding: 10px 15px;
+  text-align: center;
 }
 .nav > li > a:hover,
 .nav > li > a:focus {
@@ -4051,13 +4048,13 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 @media (min-width: 768px) {
   .navbar-header {
     float: left;
-  }
+     }
 }
 .navbar-collapse {
   overflow-x: visible;
   padding-right: 15px;
   padding-left: 15px;
-  border-top: 1px solid transparent;
+  border-top: 1px solid white;
   -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
           box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
   -webkit-overflow-scrolling: touch;
@@ -4098,13 +4095,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
     max-height: 200px;
   }
 }
-.container > .navbar-header,
-.container-fluid > .navbar-header,
-.container > .navbar-collapse,
-.container-fluid > .navbar-collapse {
-  margin-right: -15px;
-  margin-left: -15px;
-}
+
 @media (min-width: 768px) {
   .container > .navbar-header,
   .container-fluid > .navbar-header,
@@ -4128,7 +4119,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   position: fixed;
   right: 0;
   left: 0;
-  z-index: 1030;
+  z-index: 2050;
+
 }
 @media (min-width: 768px) {
   .navbar-fixed-top,
@@ -4168,10 +4160,10 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar-toggle {
   position: relative;
   float: right;
-  margin-right: 15px;
+  margin-right: 0%;
   padding: 9px 10px;
   margin-top: 13px;
-  margin-bottom: 13px;
+  
   background-color: transparent;
   background-image: none;
   border: 1px solid transparent;
@@ -4180,7 +4172,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar-toggle:focus {
   outline: 0;
 }
-.navbar-toggle .icon-bar {
+/*.navbar-toggle .icon-bar {
   display: block;
   width: 22px;
   height: 2px;
@@ -4188,7 +4180,10 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .navbar-toggle .icon-bar + .icon-bar {
   margin-top: 4px;
-}
+}*/
+
+
+
 @media (min-width: 768px) {
   .navbar-toggle {
     display: none;
@@ -4486,12 +4481,10 @@ fieldset[disabled] .navbar-default .btn-link:focus {
   color: #cccccc;
   background-color: transparent;
 }
-.navbar-inverse .navbar-toggle {
-  border-color: #fff;
-}
+
 .navbar-inverse .navbar-toggle:hover,
 .navbar-inverse .navbar-toggle:focus {
-  background-color: #0DC0C0;
+  background-color: none;
 }
 .navbar-inverse .navbar-toggle .icon-bar {
   background-color: #ffffff;
