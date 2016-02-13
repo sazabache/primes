@@ -5,103 +5,78 @@
   font-family: 'Open Sans'
 }
 #portafolio{
-	padding: 3%;
+	padding: 5%;
 }
-.row{
-	width: 96%;
-	margin-left: 35px;
-}
-.row .col-md-6{	
-	padding: 1%;
-	margin-left: 10px;
-}
-.row .col-md-6 figure{
-	margin-left: 5px;
-}
-.row ul{
+#portafolio ul{
 	margin: 2% 0 2% 0;
 }
-.row ul a{
+#portafolio ul a{
 	text-decoration: none;
 	padding: 1% 1%;
 	font-size: 1em;
 	font-weight: bold;
 }
-.row ul a:hover{
+#portafolio ul a:hover{
 	background-color: #18bc9c;
 	color: white;
+	border-radius: 10%;
 }
-.white-box{
-	background-color: white;
-}
-.grid {	
-	top: 20px;
-}
-.col-md-6{
-	padding: 2% 1%;
-	margin: 3% 0.5%;
-}
-
 /* Common style */
-.grid figure {
+.imagen figure {
 	position: relative;
 	float: left;
 	text-align: center;
 	cursor: pointer;
+	margin-top: 3%;
 }
-
-.grid figure img {
+.imagen figure img {
 	position: relative;
 	display: block;
 	opacity: 0.8;
 }
-
-.grid figure figcaption {
+.imagen figure figcaption {
 	padding: 2em;
 	color: #fff;
-	text-transform: uppercase;
 	font-size: 1.25em;
 	-webkit-backface-visibility: hidden;
 	backface-visibility: hidden;
 }
-
-.grid figure figcaption::before,
-.grid figure figcaption::after {
+.imagen figure figcaption::before,
+.imagen figure figcaption::after {
 	pointer-events: none;
 }
 
-.grid figure figcaption,
-.grid figure figcaption > a {
+.imagen figure figcaption,
+.imagen figure figcaption > a {
 	position: absolute;
 	top: 0;
 	left: 0;
 	width: 100%;
 	height: 100%;
 }
-
 /* Anchor will cover the whole item by default */
 /* For some effects it will show as a button */
-.grid figure figcaption > a {
+.imagen figure figcaption > a {
 	z-index: 1000;
 	text-indent: 200%;
 	white-space: nowrap;
 	font-size: 0;
 	opacity: 0;
 }
-
-.grid figure h2 {
+.imagen figure h2 {
 	word-spacing: -0.15em;
 	font-weight: 300;
 }
-.grid figure h2,
-.grid figure p {
+.imagen figure h2,
+.imagen figure p {
 	margin: 0;
 }
 
-.grid figure p {
+.imagen figure p {
 	color: white;
 }
-.grid figure p a:hover{
+
+.imagen figure p a:hover{
 	color: #18bc9c
 }
 figure.effect-phoebe {
@@ -117,6 +92,24 @@ figure.effect-phoebe img {
 figure.effect-phoebe:hover img {
 	opacity: 0.6;
 }
+.btn1{
+	padding: 0 2% 2%;
+}
+.load{
+	background-color: #6E6E6E;
+	padding: 1%;
+	border-radius: 3%;
+}
+.col-12 .load{
+	text-decoration: none;
+	color: white;
+}
+.col-12 .load:hover{
+	background-color: transparent;
+	color: #18bc9c;
+	border: solid #18bc9c 2px;
+}
+
 
 figure.effect-phoebe figcaption::before {
 	position: absolute;
@@ -178,19 +171,6 @@ figure.effect-phoebe:hover p a {
 	-webkit-transform: translate3d(0,0,0);
 	transform: translate3d(0,0,0);
 }
-.load{
-	background-color: #6E6E6E;
-	padding: 1%;
-	border-radius: 3%;
-}
-.container .load{
-	text-decoration: none;
-	color: white;
-}
-.container .load:hover{
-	background-color: #18bc9c;
-	color: white;
-}
 .call .ciudad{
 	width: 100%;
 	height: 400px;
@@ -198,17 +178,68 @@ figure.effect-phoebe:hover p a {
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
-	background-position: 0 100px;
 }
 .ciudad p a{
 	color: white;
 	text-decoration: none;
 	text-align: center;
 	padding: 1%;
-	border: solid white 1px;
+	border: solid white 2px;
 	margin-top: 5%;
+	font-weight: bolder;
+	font-size: 1.3em;
 }
 .opacity .ultimo{
 	margin: 5%;
-	opacity: 1;
+}
+.ultimo a:hover{
+	background-color: #18bc9c;
+	font-weight: bolder;
+	color: white;
+	border: none;
+}
+#price h2{
+	padding: 2%;
+}
+#price .precio{
+	border: solid red 2px;
+	padding: 2%;
+	margin-top: 3%;
+}
+.titulo{
+	width: 100%;
+	background-color: #323A45;
+	height: 80px;
+	padding: 8%;
+	border: #fff solid 3px;
+}
+.money{
+	width: 100%;
+	background-color: #F0F0F0;
+	height:140px;
+	padding: 15%;
+	border: red solid 3px;
+}
+.money span{
+	font-size: 2em;
+}
+.descripcion{
+	background-color: #fff;
+	border: green solid 3px;
+	padding-bottom: 5%;
+}
+.descripcion ul{
+	padding-left: 6%;
+	padding-right: 6%;
+}
+.descripcion ul li{
+	list-style: none;
+	border-bottom: solid #F0F0F0 1px;
+	margin:8%;
+}
+.descripcion ul li:last-child{
+	padding-bottom: 3%;
+}
+.precio a{
+	padding: 2%;
 }
