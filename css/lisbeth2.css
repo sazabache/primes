@@ -190,6 +190,10 @@ figure.effect-phoebe:hover p a {
 	font-weight: bolder;
 	font-size: 1.3em;
 }
+.opacity{
+	height: 400px;
+	background-color: rgba(37, 35, 35, 0.54);
+}
 .opacity .ultimo{
 	margin: 5%;
 }
@@ -278,4 +282,35 @@ figure.effect-phoebe:hover p a {
 .opacidad{
 	background-color: rgba(37, 35, 35, 0.54);
 	height: 650px;
+}
+.form1{
+	margin-left: 5%;
+}
+.form1 h4{
+	margin-left:3%;
+}
+.form1 input,textarea{
+	margin: 2%;
+	background-color:rgba(37, 35, 35, 0.80); 
+	border:none;
+	width: 80%;
+}
+.form1 textarea{
+	margin: 2%;
+	background-color: rgba(37, 35, 35, 0.80);
+	border: none;
+	margin-bottom: 10%;
+	width: 80%;
+}
+.form1 a{
+	padding: 2% 6% 2% 6%;
+	background-color: #18bc9c;
+	color: #fff;
+	margin:2%;
+}
+.form1 a:hover{
+	background-color: transparent;
+	border:#18bc9c solid 2px;
+	font-weight: bold;
+	color: #18bc9c;
 }
