@@ -15,6 +15,7 @@
 	padding: 1% 1%;
 	font-size: 1em;
 	font-weight: bold;
+	background-color: #fff;
 }
 #portafolio ul a:hover{
 	background-color: #18bc9c;
@@ -202,31 +203,36 @@ figure.effect-phoebe:hover p a {
 	padding: 2%;
 }
 #price .precio{
-	border: solid red 2px;
+	background-color: #fff;
 	padding: 2%;
 	margin-top: 3%;
+	border: 5px solid rgb(244, 244, 244);
 }
 .titulo{
 	width: 100%;
 	background-color: #323A45;
 	height: 80px;
 	padding: 8%;
-	border: #fff solid 3px;
+}
+.premium{
+	width: 100%;
+	background-color: #18bc9c;
+	height: 80px;
+	padding: 8%;
 }
 .money{
 	width: 100%;
 	background-color: #F0F0F0;
 	height:140px;
 	padding: 15%;
-	border: red solid 3px;
 }
 .money span{
 	font-size: 2em;
 }
 .descripcion{
 	background-color: #fff;
-	border: green solid 3px;
 	padding-bottom: 5%;
+	border: solid 2px #fff;
 }
 .descripcion ul{
 	padding-left: 6%;
@@ -238,8 +244,17 @@ figure.effect-phoebe:hover p a {
 	margin:8%;
 }
 .descripcion ul li:last-child{
-	padding-bottom: 3%;
+	padding-bottom: 8%;
+	padding-top: 4%;
 }
 .precio a{
-	padding: 2%;
+	padding: 3%;
+	background-color:#2D323A;
+	border: solid #2D323A 1px; 
+	color: #fff;
+}
+.precio a:hover{
+	background-color: #18bc9c;
+	color: #fff;
+	border: none;
 }
