@@ -5,7 +5,7 @@
   font-family: 'Open Sans'
 }
 #portafolio{
-	padding: 5%;
+	padding: 5% 5% 5% 5%;
 }
 #portafolio ul{
 	margin: 2% 0 2% 0;
@@ -18,9 +18,9 @@
 	background-color: #fff;
 }
 #portafolio ul a:hover{
-	background-color: #18bc9c;
+	background-color: #0DC0C0;
 	color: white;
-	border-radius: 10%;
+	border-radius: 0%;
 }
 /* Common style */
 .imagen figure {
@@ -190,11 +190,11 @@ figure.effect-phoebe:hover p a {
 	font-weight: bolder;
 	font-size: 1.3em;
 }
-.opacity{
+.opacity2{
 	height: 400px;
 	background-color: rgba(37, 35, 35, 0.54);
 }
-.opacity .ultimo{
+.opacity2 .ultimo{
 	margin: 5%;
 }
 .ultimo a:hover{
@@ -270,7 +270,7 @@ figure.effect-phoebe:hover p a {
 
 }
 #personaje img{
-	width: 10%;
+	width: 8%;
 	border-radius: 100%;
 	margin: 2%;
 }
@@ -313,4 +313,11 @@ figure.effect-phoebe:hover p a {
 	border:#18bc9c solid 2px;
 	font-weight: bold;
 	color: #18bc9c;
+}
+
+#portafolio h1{
+	color: #888;
+	font-size: 2.5em;
+	padding-top: 1%;
+	padding-bottom: 2%;
 }

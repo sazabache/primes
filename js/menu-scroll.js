@@ -1,7 +1,7 @@
 $(document).scroll(function() {    
     var scroll = $(this).scrollTop();
 
-    if (scroll >= 970) {
+    if (scroll >= 100) {
         $("#menu").addClass("active");
     } else {
         $("#menu").removeClass("active");
