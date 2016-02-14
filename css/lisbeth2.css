@@ -199,6 +199,9 @@ figure.effect-phoebe:hover p a {
 	color: white;
 	border: none;
 }
+#price{
+	padding-bottom: 5%;
+}
 #price h2{
 	padding: 2%;
 }
@@ -257,4 +260,22 @@ figure.effect-phoebe:hover p a {
 	background-color: #18bc9c;
 	color: #fff;
 	border: none;
+}
+#personaje{
+	padding:2%;
+
+}
+#personaje img{
+	width: 10%;
+	border-radius: 100%;
+	margin: 2%;
+}
+#contact{
+	background: url("../img/background/contactus.jpg");
+	height:650px;
+	background-size: cover;
+}
+.opacidad{
+	background-color: rgba(37, 35, 35, 0.54);
+	height: 650px;
 }
