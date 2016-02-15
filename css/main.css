@@ -24,7 +24,10 @@ body{
   text-decoration: none;
   color: white;
  }
-
+figure.effect-phoebe h2 {
+    margin-top: -1.3em !important;
+    font-size: 24px;
+}
 .opacity .container {
     margin: 0 !important;
     
@@ -131,7 +134,7 @@ aside{
 	padding-top: 32% !important;
 }
 #portafolio{
-padding: 5% 5% 12% 5% !important;
+padding: 5% 5% 14% 5% !important;
 }
 
 .call .ciudad {
@@ -155,10 +158,11 @@ height: 450px !important;
 }
 .contactus{
 	
-	height: 1120px !important;
+	height: auto !important;
 }
 .opacity3 {
-	height: 1120px !important;
+	height: auto !important;
+	padding-bottom: 9% !important;
 }
 
 .call h3{
@@ -169,7 +173,8 @@ height: 450px !important;
 ;
 }
 #price{
-	height: 2414px !important;
+	height: auto !important;
+	padding-bottom: 10%;
 }
 #price .precio {
 	margin: 2% 0px !important;

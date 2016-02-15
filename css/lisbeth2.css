@@ -219,7 +219,7 @@ figure.effect-phoebe:hover p a {
 #price{
 	padding-top: 2%;
 	padding-bottom: 5%;
-	    height: 1020px;
+	height: auto;
 }
 #price h2{
 	    color: #7A7A7A;
