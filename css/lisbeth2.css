@@ -5,7 +5,7 @@
   font-family: 'Open Sans'
 }
 #portafolio{
-	padding: 5% 5% 5% 5%;
+	padding: 4.5% 5% 10% 5%;
 }
 #portafolio ul{
 	margin: 2% 0 2% 0;
@@ -75,10 +75,16 @@
 
 .imagen figure p {
 	color: white;
+	    font-size: 1.1em;
+    padding-bottom: 0.8%;
+    padding-top: 0.8%;
 }
 
-.imagen figure p a:hover{
-	color: #18bc9c
+figcaption i{
+	color: white;
+}
+figcaption i:hover{
+	color: #0DC0C0;
 }
 figure.effect-phoebe {
 	background: gray;
@@ -94,7 +100,7 @@ figure.effect-phoebe:hover img {
 	opacity: 0.6;
 }
 .btn1{
-	padding: 0 2% 2%;
+	    padding: 4% 2% 2% 2%;
 }
 .load{
 	background-color: #6E6E6E;
@@ -107,8 +113,8 @@ figure.effect-phoebe:hover img {
 }
 .col-12 .load:hover{
 	background-color: transparent;
-	color: #18bc9c;
-	border: solid #18bc9c 2px;
+	color: #0DC0C0;
+	border: solid #0DC0C0 2px;
 }
 
 
@@ -174,7 +180,7 @@ figure.effect-phoebe:hover p a {
 }
 .call .ciudad{
 	width: 100%;
-	height: 400px;
+	height: 550px;
 	background-image: url("../img/background/city.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -190,30 +196,51 @@ figure.effect-phoebe:hover p a {
 	font-weight: bolder;
 	font-size: 1.3em;
 }
+
+.call h3{
+	font-size: 29px;
+	padding-left: 1.1%;
+	padding-right:1.1%;
+	line-height: 1.5;
+}
 .opacity2{
-	height: 400px;
-	background-color: rgba(37, 35, 35, 0.54);
+	height: 550px;
+	background-color: rgba(0, 0, 0, 0.52);
 }
 .opacity2 .ultimo{
 	margin: 5%;
 }
 .ultimo a:hover{
-	background-color: #18bc9c;
+	background-color: #0DC0C0;
 	font-weight: bolder;
 	color: white;
 	border: none;
 }
 #price{
+	padding-top: 2%;
 	padding-bottom: 5%;
+	    height: 1020px;
 }
 #price h2{
-	padding: 2%;
+	    color: #7A7A7A;
+    font-size: 2.5em;
+    padding-top: 4%;
+    padding-bottom: 1%;
 }
 #price .precio{
 	background-color: #fff;
-	padding: 2%;
+	padding: 2% 2% 0.5% 2%;
 	margin-top: 3%;
-	border: 5px solid rgb(244, 244, 244);
+	border: 1.5px solid rgb(244, 244, 244);
+	box-shadow: rgba(0, 0, 0, 0.74902) 6px 5px 32px -6px;
+
+    margin: 2% 9px;
+}
+
+.shadw .col-12{
+	display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .titulo{
 	width: 100%;
@@ -223,7 +250,7 @@ figure.effect-phoebe:hover p a {
 }
 .premium{
 	width: 100%;
-	background-color: #18bc9c;
+	background-color: #0DC0C0;
 	height: 80px;
 	padding: 8%;
 }
@@ -249,19 +276,20 @@ figure.effect-phoebe:hover p a {
 	list-style: none;
 	border-bottom: solid #F0F0F0 1px;
 	margin:8%;
+	padding-bottom: 8%;
 }
 .descripcion ul li:last-child{
 	padding-bottom: 8%;
 	padding-top: 4%;
 }
 .precio a{
-	padding: 3%;
+	padding: 4% 11%;
 	background-color:#2D323A;
 	border: solid #2D323A 1px; 
 	color: #fff;
 }
 .precio a:hover{
-	background-color: #18bc9c;
+	background-color: #0DC0C0;
 	color: #fff;
 	border: none;
 }
@@ -274,50 +302,12 @@ figure.effect-phoebe:hover p a {
 	border-radius: 100%;
 	margin: 2%;
 }
-#contact{
-	background: url("../img/background/contactus.jpg");
-	height:650px;
-	background-size: cover;
-}
-.opacidad{
-	background-color: rgba(37, 35, 35, 0.54);
-	height: 650px;
-}
-.form1{
-	margin-left: 5%;
-}
-.form1 h4{
-	margin-left:3%;
-}
-.form1 input,textarea{
-	margin: 2%;
-	background-color:rgba(37, 35, 35, 0.80); 
-	border:none;
-	width: 80%;
-}
-.form1 textarea{
-	margin: 2%;
-	background-color: rgba(37, 35, 35, 0.80);
-	border: none;
-	margin-bottom: 10%;
-	width: 80%;
-}
-.form1 a{
-	padding: 2% 6% 2% 6%;
-	background-color: #18bc9c;
-	color: #fff;
-	margin:2%;
-}
-.form1 a:hover{
-	background-color: transparent;
-	border:#18bc9c solid 2px;
-	font-weight: bold;
-	color: #18bc9c;
-}
+
 
 #portafolio h1{
-	color: #888;
+	color: #7A7A7A;
 	font-size: 2.5em;
 	padding-top: 1%;
-	padding-bottom: 2%;
+	padding-bottom: 1%;
 }
+

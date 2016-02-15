@@ -127,6 +127,87 @@ aside{
 	font-size: 15px;
 }
 
+.pt-10{
+	padding-top: 32% !important;
+}
+#portafolio{
+padding: 5% 5% 12% 5% !important;
+}
+
+.call .ciudad {
+    height: 450px !important;
+    }
+
+.opacity2{
+height: 450px !important;
+}
+
+#price h2{
+	padding-top: 9% !important;
+    padding-bottom: 1%;
+    padding-left: 5% !important;
+    padding-right: 5% !important;
+}
+
+.contactus .container{
+	padding-left: 2.5% !important;
+	padding-right: 2.5% !important;
+}
+.contactus{
+	
+	height: 1120px !important;
+}
+.opacity3 {
+	height: 1120px !important;
+}
+
+.call h3{
+	font-size: 23px !important;
+}
+.shadw .col-12{
+	display: inline !important
+;
+}
+#price{
+	height: 2414px !important;
+}
+#price .precio {
+	margin: 2% 0px !important;
+}
+
+
+.follow h2{
+	padding-top: :10% !important;
+	padding-bottom: 7% !important;
+}
+
+.follow p{
+	padding-left: 17% !important;
+    padding-right: 17% !important;
+    padding-bottom: 5% !important;
+}
+
+.pt-5{
+	padding-top: 0% !important;
+}
+
+.lg-text{
+ 	padding-left: 12% !important;
+    padding-right: 12% !important;
+    padding-top: 5% !important;
+    padding-bottom: 8% !important;
+    font-size: 1em !important;
+}
+
+#personaje img {
+    width:22% !important;
+}
+#personaje h2{
+	padding-left: 10% !important;
+    padding-right: 10% !important;
+    font-size: 2.2em !important;
+}
+
 .navbar-toggle:hover {
   cursor: pointer; }
 .navbar-toggle.open .icon-bar {
@@ -258,7 +339,9 @@ nav li a:hover {
 }
 /*END HEADER*/
 
-
+#menu i{
+	color: white;
+}
 aside{
 	height: 1077px;
 	background: url(../img/background/hero.jpg) no-repeat;
@@ -326,8 +409,8 @@ nav h1{
 
 .icons{
 padding-top: 6%;
-padding-left: 10%;
-padding-right: 10%;
+padding-left: 14%;
+padding-right: 14%;
 margin: 0;
 }
 .icons:nth-child(2){
@@ -374,8 +457,8 @@ i{
 }
 
 .section3{
-	padding-left: 16%;
-	padding-right: 10%;
+	padding-left: 18%;
+	padding-right: 13%;
 	padding-top: 2%;
 	padding-bottom: 2%;
 }
@@ -391,4 +474,119 @@ i{
 
 .col-xs-2{
 	width: 11.333%;
+}
+
+.ft-1{
+	font-size: 1.1em;
+}
+
+.lg-text{
+	padding-left: 23%;
+    padding-right: 23%;
+    font-size: 1.2em;
+    color: ##4A4A4A;
+}
+
+#personaje h2{
+	color: #7A7A7A;
+    font-size: 2.5em;
+    padding-top: 2%;
+    padding-bottom: 0%;
+}
+#personaje .strong{
+	padding-top: 1% !important;
+    padding-bottom: 1% !important;
+}
+/*Contact Us*/
+.contactus{
+	background-image: url("../img/background/contactus.jpg");
+	background-size: cover;
+	height: 780px;
+}
+.opacity3 {
+	width: 100%;
+	height: 780px;
+	background-color: rgba(0, 0, 0, 0.50);
+	padding-top: 3.5%;
+
+}
+
+.text-white{
+	color: white;
+}
+
+.contactus h3{
+	padding-bottom: 2%;
+	padding-top: 2%;
+}
+
+.contactus h1{
+	font-size: 2.5em;
+    padding-top: 4%;
+    padding-bottom: 1%;
+}
+.input, .message{
+	padding: 2%;
+	background-color: rgba(227, 230, 230, 0.13);
+    display: block;
+    width: 85%; 
+    margin-bottom: 20px;
+    border: none;
+}
+.message{
+    height: 200px;
+}
+.contactus button{
+	border: solid white 2px;
+    background-color: transparent;
+	padding: 10px 22px;
+	font-size: 1.3em;
+}
+.contactus button:hover{
+	background-color:  #0DC0C0;
+	border: 1px solid #0DC0C0;
+}
+.contactus i{
+	font-size: 1.8em;
+	color: white;
+}
+.about{
+	line-height: 28px;
+}
+/*Follow Us*/
+.follow h2{
+	    padding-top: 67px;
+    padding-bottom: 31px;
+    color: #7A7A7A
+}
+.follow p{
+	font-size: 1.2em;
+}
+.follow div a {
+	font-size: 2.8em;
+	margin-left: 1%;
+}
+.follow a:hover {
+	color: black;
+}
+
+
+.follow i{
+	font-size: 1em;
+    color: black;
+}
+
+.follow i:hover{
+	color: #0DC0C0;
+}
+
+/*Footer*/
+
+
+footer{
+	background-color: black;
+	padding: 2%;
+}
+footer p{
+	color: gray;
 }
