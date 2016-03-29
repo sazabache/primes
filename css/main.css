@@ -596,6 +596,7 @@ form input{
 footer{
 	background-color: black;
 	padding: 2%;
+	position: fixed;
 }
 footer p{
 	color: gray;
